@@ -3311,8 +3311,8 @@ ul {
 
 .rd-navbar-fixed .rd-navbar-brand {
   position: fixed;
-  top: 16px;
-  left: 64px;
+  top: 4px;
+  right: -250px;
   z-index: 17;
   display: block;
   overflow: hidden;
@@ -3528,16 +3528,34 @@ ul {
 .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 44px 15px 42px;
-  font-size: 0;
-  line-height: 0;
+    justify-content: flex-end;
+    padding: 27px 50px 27px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.img-logo {
+    width: 60%;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel {
   min-width: 100px;
+    position: absolute;
+    top: 5px;
+    left: 120px;
 }
 
+@media (max-width: 1200px) {
+
+    .img-logo {
+        width: 35%;
+    }
+    .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
+
+        padding: 47px 50px 47px;
+
+    }
+}
 .rd-navbar-default.rd-navbar-static .rd-navbar-group {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
