@@ -91,7 +91,7 @@ html {
 }
 
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.71429;
   color: #9f9f9f;
@@ -148,6 +148,18 @@ img {
 
 .fs-15 {
   font-size: 15px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-24 {
+    font-size: 24px;
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
@@ -390,6 +402,10 @@ html p a:hover {
   }
 }
 
+
+.ml-70 {
+  margin-left: 70px;
+}
 @media (min-width: 1800px) {
   .shell-wide {
     max-width: 1800px;
@@ -2416,6 +2432,8 @@ small,.small {
 
 .bg-gray-base .text-bigger,.bg-primary .text-bigger {
   color: #fff;
+  text-shadow: 0 0 3px #000000, 0 0 7px #000000;
+  font-weight: 600;
 }
 
 .bg-gray-base {
@@ -2480,10 +2498,13 @@ small,.small {
 
 .page .text-red-orange {
   color: #ff4b22;
+    font-size: 60px;
+
 }
 
 .page a.text-red-orange:hover,.page a.text-red-orange:focus {
   color: #ee2c00;
+  font-weight: 900;
 }
 
 .page .text-gray-base {
@@ -3476,6 +3497,7 @@ ul {
 .rd-navbar-default .rd-navbar-nav > li > a {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.2;
   text-transform: uppercase;
   color: #00030a;
@@ -3546,14 +3568,17 @@ ul {
 }
 
 @media (max-width: 1200px) {
+    .img-logo {
+        width: 50%;
+    }
+}
 
+@media (max-width: 992px) {
+    .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
+        padding: 47px 50px 47px;
+    }
     .img-logo {
         width: 35%;
-    }
-    .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
-
-        padding: 47px 50px 47px;
-
     }
 }
 .rd-navbar-default.rd-navbar-static .rd-navbar-group {
@@ -3773,6 +3798,9 @@ ul {
 
   .swiper-variant-1 .slider-header {
     font-size: 50px;
+    font-weight: 900;
+      font-family: 'Roboto', sans-serif;
+      text-shadow: 7px 3px 12px #000000;
   }
 
   .swiper-variant-1 .slider-text {
@@ -3822,4 +3850,160 @@ ul {
     right: 40px;
     bottom: 40px;
   }
+}
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Popup window styles*/
+.popup {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    max-width: 70%;
+    height: auto;
+    overflow: hidden;
+}
+
+.popup img {
+    margin: 0 auto;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+/*Buttons styles*/
+
+.popup span#close {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+}
+.popup span#next {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.popup span#prev {
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    transition: all 200ms;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+.popup .play_wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: all 200ms;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    opacity: 0;
+    z-index: 101;
+}
+
+.popup .play_wrap:hover{
+    opacity: 1;
+    background-color: rgba(204,204,204, 0.8);
+}
+
+.popup .play_wrap span {
+    font-size: 60px;
+}
+
+.popup .play_wrap span#stop {
+    display: none;
+}
+
+.popup .play_wrap span#play:hover, .popup .play_wrap span#stop:hover {
+    color: #1F6FEB;
+    cursor: pointer;
+}
+
+
+.popup .play_wrap span i {
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+    color: #fff;
+}
+
+
+.popup span#next:hover, .popup span#prev:hover, .popup span#close:hover {
+    color: #1F6FEB;
+    border-color: #1F6FEB;
+}
+
+/* ***** */
+/* PAGE STYLES */
+/* ***** */
+
+.wrap {
+margin: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
+
+.gallery img {
+    /*width: calc(100% * (1/4) - 10px - 1px);*/
+    /*height: auto;*/
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.gallery .gallary_block img:last-child {
+    margin-right: 0;
+}
+
+.gallery .gallary_block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
