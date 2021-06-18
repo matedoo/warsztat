@@ -146,8 +146,27 @@ img {
   font-size: 16px;
 }
 
+.fs-18 {
+    font-size: 18px;
+}
+
 .fs-15 {
   font-size: 15px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+.fs-21 {
+    font-size: 21px;
+}
+
+.mb-15 {
+    margin-bottom: -15px;
+}
+
+.lh-22 {
+    line-height: 22px;
 }
 
 .fs-26 {
@@ -433,6 +452,10 @@ html.lt-ie-10 * + .range,* + .range {
 
 html.lt-ie-10 * + [class*='cell-'],* + [class*='cell-'],html.lt-ie-10 * + .range-sm,* + .range-sm {
   margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
 }
 
 html.lt-ie-10 * + .range-lg,* + .range-lg {
@@ -2093,7 +2116,9 @@ body {
 */
 
 .page-head {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 10000;
   background-color: #fff;
 }
@@ -2490,6 +2515,8 @@ small,.small {
 
 .page .text-secondary {
   color: #00030a;
+  line-height: 19px;
+    margin-bottom: 20px;
 }
 
 .page a.text-secondary:hover,.page a.text-secondary:focus {
@@ -2848,6 +2875,7 @@ html .page .offset-top-22 {
 
 html .page .offset-top-30 {
   margin-top: 30px;
+  margin-bottom: 0;
 }
 
 html .page .offset-top-35 {
