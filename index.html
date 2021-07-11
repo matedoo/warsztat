@@ -24,7 +24,7 @@
           <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-stick-up-clone="false" data-body-class="rd-navbar-static-smooth" data-md-stick-up-offset="60px" data-lg-stick-up-offset="60px" data-md-stick-up="true" data-lg-stick-up="true" class="rd-navbar rd-navbar-default">
             <div class="rd-navbar-inner">
               <div class="rd-navbar-panel">
-                <button data-custom-toggle=".rd-navbar-nav-wrap" data-custom-toggle-disable-on-blur="true" class="rd-navbar-toggle"><span></span></button><a href="index.html" class="rd-navbar-brand brand"><img class="img-logo" src="images/logo-BUTLA.svg" width="139" height="22" alt="logo"/></a>
+                <button data-custom-toggle=".rd-navbar-nav-wrap" data-custom-toggle-disable-on-blur="true" class="rd-navbar-toggle"><span></span></button><a class="rd-navbar-brand brand"><img class="img-logo"  onclick="window.scrollTo(0, 0);" src="images/logo-BUTLA.svg" width="139" height="22" alt="logo"/></a>
               </div>
               <div class="rd-navbar-group rd-navbar-search-wrap">
                 <div class="rd-navbar-nav-wrap">
@@ -32,8 +32,9 @@
                     <ul class="rd-navbar-nav">
 <!--                      <li class="active"><a href="index.html">Home</a></li>-->
                       <li><a href="#warsztat">WARSZTAT</a></li>
-                      <li><a href="#oferta">OFERTA</a></li>
+                      <li><a  href="#oferta">OFERTA</a></li>
                       <li><a href="#cennik">CENNIK</a></li>
+                        <li><a href="#cert">CERTYFIKATY</a></li>
                       <li><a href="#gallery">GALERIA</a></li>
                       <li><a href="#kontakt">KONTAKT</a></li>
                     </ul>
@@ -53,11 +54,11 @@
                 <div class="shell">
                   <div class="range range-sm-center">
                     <div class="cell-sm-11 cell-md-10 cell-lg-9 mt-40">
-                      <h2 data-caption-animate="fadeInUp" data-caption-delay="0s" class="slider-header">Witaj w moim warsztacie</h2>
+                      <h2 data-caption-animate="fadeInUp" data-caption-delay="0s" class="slider-header mt-20">Witaj w moim warsztacie</h2>
                       <p data-caption-animate="fadeInUp" data-caption-delay="100" class="text-bigger slider-text">Na rynku polskim jesteśmy od 2002r. Dzięki zdobytym przez tyle lat doświadczeniom i podnoszeniu kwalifikacji, mając na uwadze ciągły postęp technologiczny, nasze usługi świadczone są na wysokim poziomie.</p>
-                        <p data-caption-animate="fadeInUp" data-caption-delay="100" class="text-bigger slider-text">Wszystkie instalacje lpg montowane u nas objęte są serwisem gwarancyjnym.</p>
-                        <p data-caption-animate="fadeInUp" data-caption-delay="100" class="text-bigger slider-text">Służymy też pomocą w przeglądzie i naprawie instalacji gazowych nie montowanych w naszym zakładnie.</p>
-                        <p data-caption-animate="fadeInUp" data-caption-delay="100" class="text-bigger slider-text">Serdecznie zapraszamy do zapoznania się z naszą ofertą. W razie pytań służymy pomocą</p>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="100" class="text-bigger slider-text mt-20">Wszystkie instalacje lpg montowane u nas objęte są serwisem gwarancyjnym.</p>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="100" class="text-bigger slider-text mt-20">Służymy też pomocą w przeglądzie i naprawie instalacji gazowych nie montowanych w naszym zakładnie.</p>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="100" class="text-bigger slider-text mt-20">Serdecznie zapraszamy do zapoznania się z naszą ofertą. W razie pytań służymy pomocą</p>
 
                         <div class="group-xl-responsive offset-top-30 offset-sm-top-45"><a data-caption-animate="fadeInUp" data-caption-delay="250" href="gallery" data-custom-scroll-to="gallery" class="btn btn-xl btn-white-outline-variant-1">Zobacz galerię</a><a data-caption-animate="fadeInUp" data-caption-delay="250" href="#kontakt" class="btn btn-xl btn-primary-contrast">Kontakt</a></div>
                     </div>
@@ -72,13 +73,14 @@
       </section>
 <!--        section-50-->
 <!--        section-lg-top-120-->
-      <section id="oferta" class=" section-sm-bottom-90 section-lg-bottom-145">
+      <section id="oferta" style="padding-top: 60px; margin-top: -60px;">
+          <section class=" section-sm-bottom-90 section-lg-bottom-145">
         <div class="shell">
           <div class="range range-sm-center">
-            <div data-wow-duration="2s" data-wow-offset="200" class="cell-sm-10 cell-md-5 offset-top-60 wow fadeInLeft">
-              <h2 class="text-red-orange">OFERTA</h2>
+            <div  data-wow-duration="2s" data-wow-offset="200" class="cell-sm-10 cell-md-4 offset-top-60 wow fadeInLeft ml-size">
+              <h2 style="margin-bottom: 20px" class="text-red-orange">OFERTA</h2>
 <!--              <p class="h3 offset-top-0">Bootstrap theme</p>-->
-                <p class="offset-top-20 text-secondary fs-18"><span class="text-sbold fs-21">Naszym klientom</span> pomagamy nie tylko w doborze odpowiedniej instalcji gazowej ale doradzamy także w kwestii kupna auta pod instalację lpg.</p>
+                <p style="text-align: justify" class="offset-top-20 text-secondary fs-18"><span class="text-sbold fs-21">Naszym klientom</span> pomagamy nie tylko w doborze odpowiedniej instalcji gazowej ale doradzamy także w kwestii kupna auta pod instalację lpg.</p>
               <p class="offset-top-30  fs-20 text-sbold text-violet">Oferujemy:</p>
                 <p class="text-secondary fs-18">Montaż instalacji gazowych takich firm jak landi renzo, brc, stag zy kme</p>
                 <p class="offset-top-10 text-secondary fs-18">Montaż instalacji lpg w silnikach z bezpośrednim wtryskiem</p>
@@ -94,30 +96,43 @@
             </div>
           </div>
         </div>
+          </section>
       </section>
 
-      <section id="cennik" data-on="false" data-md-on="true" style="background-image: url(images/price-bg.png)" class="rd-parallax bg-gray-base bg-image">
-        <div data-speed="0.33" data-type="media" data-url="images/price-bg.png" class="rd-parallax-layer"></div>
+      <section id="cennik" data-on="false" data-md-on="true" style="background-image: url(images/price-bg.png)" class=" bg-image">
+        <div data-speed="0.33" data-type="media" data-url="images/price-bg.png" class=""></div>
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
-          <div class="section-60 section-sm-90 section-lg-120">
+          <div class="section-60 section-sm-90 section-lg-custom">
             <div class="shell text-right">
 
                 <div class="range range-sm-center">
-                <div class="cell-sm-8 cell-md-6 cell-lg-6">
+
+                    <div class="cell-lg-3"></div>
+                <div class="cell-sm-8 cell-md-6 cell-lg-5">
                     <h2 class="text-red-orange">CENNIK</h2>
-                   <p class="text-white fs-21 lh-22">Cena montażu instalacji gazowej uzależniona jest przede wszystkim od preferencji klienta a także od modelu samochodu, pojemności silnika czy liczby cylindrów w danym silniku.</p>
-                      <p class="text-white offset-top-10 fs-21 lh-22">Dokładna wycena jest możliwa po wstępnej rozmowie z klientem lub po wizycie w naszym zakładnie instalacji gazowych</p>
+                   <p class="text-white initial fs-21 lh-28 mt-20">Cena montażu instalacji gazowej uzależniona jest przede wszystkim od preferencji klienta a także od modelu samochodu, pojemności silnika czy liczby cylindrów w danym silniku.</p>
+                      <p class="text-white initial mt-20 fs-21 lh-28">Dokładna wycena jest możliwa po wstępnej rozmowie z klientem lub po wizycie w naszym zakładnie instalacji gazowych</p>
                 </div>
+
                 </div>
             </div>
           </div>
         </div>
       </section>
 
+        <section  id="cert" data-on="false" data-md-on="true"  style="padding-top: 60px; margin-top: -60px;">
+            <div class="shell ">
+            <h2  class="text-red-orange mt-60 ml-100">CERTYFIKATY</h2>
+                <div style="padding-bottom: 0px" class="section-60 section-sm-90 ">
+                  <div style="text-align: center"><img style="width: 40%" src="images/cert2019.jpg"></div>
+                </div>
+            </div>
+        </section>
+
       <section id="gallery" class="section-50 section-sm-90 section-lg-top-120 section-lg-120">
         <div class="shell">
           <div class="text-left ">
-            <h2 class="text-red-orange ml-70">GALERIA</h2>
+            <h2 class="text-red-orange ml-100 mb-60">GALERIA</h2>
 <!--            test-->
               <div class="wrap">
                   <div class="gallery">
@@ -186,5 +201,6 @@
     
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/df7eb623c5.js" crossorigin="anonymous"></script>
   </body>
 </html>
