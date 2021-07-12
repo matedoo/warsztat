@@ -474,6 +474,18 @@ html.lt-ie-10 * + [class*='cell-'],* + [class*='cell-'],html.lt-ie-10 * + .range
     margin-bottom: 60px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px !important;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
 .ml-100{
     margin-left: 100px
 }
@@ -484,6 +496,10 @@ html.lt-ie-10 * + [class*='cell-'],* + [class*='cell-'],html.lt-ie-10 * + .range
 
 .mr-40 {
     margin-right: 40px;
+}
+
+.mr-20 {
+    margin-right: 20px;
 }
 
 html.lt-ie-10 * + .range-lg,* + .range-lg {
@@ -504,6 +520,12 @@ html.lt-ie-10 * + .range-lg,* + .range-lg {
       font-size: 40px !important;
     }
 }
+
+/*@media (min-width: 1600px) {*/
+/*    .ml-220{*/
+/*        margin-left: ;*/
+/*    }*/
+/*}*/
 
 
 @media (min-width: 480px) {
@@ -3900,7 +3922,7 @@ ul {
     font-size: 59px;
   }
     .ml-size {
-        margin-left: 150px;
+        margin-left: 100px;
     }
 }
 
