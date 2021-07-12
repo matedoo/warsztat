@@ -3878,7 +3878,7 @@ ul {
 
 .swiper-variant-1,.swiper-variant-1 .swiper-wrapper {
   height: auto;
-  min-height: calc(100vh - 56px);
+  /*min-height: calc(100vh - 56px);*/
 }
 
 .swiper-variant-1 .swiper-slide-caption {
@@ -3893,7 +3893,7 @@ ul {
 @media (min-width: 768px) {
   .swiper-variant-1,  .swiper-variant-1 .swiper-wrapper {
     height: auto;
-    min-height: 36.25vw;
+    /*min-height: 36.25vw;*/
   }
 
   .swiper-variant-1 .swiper-slide-caption {
