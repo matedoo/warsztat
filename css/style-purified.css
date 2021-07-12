@@ -478,9 +478,33 @@ html.lt-ie-10 * + [class*='cell-'],* + [class*='cell-'],html.lt-ie-10 * + .range
     margin-left: 100px
 }
 
+.ml-220 {
+    margin-left: 220px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
 html.lt-ie-10 * + .range-lg,* + .range-lg {
   margin-top: 66px;
 }
+
+@media (max-width: 1200px) {
+    .ml-220{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ml-220{
+        margin-left: 0px;
+    }
+    .text-red-orange {
+      font-size: 40px !important;
+    }
+}
+
 
 @media (min-width: 480px) {
   .range {
@@ -3614,6 +3638,7 @@ ul {
 
 .img-logo {
     width: 50%;
+    cursor: pointer;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel {
@@ -3641,6 +3666,7 @@ ul {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  z-index: 9999;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-nav-inner {
