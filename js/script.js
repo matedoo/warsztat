@@ -267,6 +267,10 @@ $document.ready(function () {
         });
 
     });
+
+
+
+
   /**
    * getSwiperHeight
    * @description  calculate the height of swiper slider basing on data attr
@@ -1880,4 +1884,5 @@ $document.ready(function () {
     }
   }
 });
+
 

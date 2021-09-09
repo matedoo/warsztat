@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb43a49-934e-4661-b16d-e1efd1bc45b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-purified.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-purified.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20200915_121904.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20200915_122012.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20200925_081414.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20200925_081523.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20200925_081912.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20201023_154312.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20201105_120603.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20201105_120715.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20201126_131748.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20201126_152157.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20201126_152200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20210303_163815.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo20.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20210303_163818.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo21.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20210303_163824.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo22.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20210317_165624.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo23.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20210318_134050.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo24.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized_20210415_175330.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo25.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
@@ -55,7 +73,7 @@
       <workItem from="1626332272168" duration="626000" />
       <workItem from="1627883709821" duration="1189000" />
       <workItem from="1628158533915" duration="602000" />
-      <workItem from="1628663339971" duration="4709000" />
+      <workItem from="1628663339971" duration="13667000" />
     </task>
     <servers />
   </component>
@@ -63,14 +81,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-846" y="-1704" key="FileChooserDialogImpl" timestamp="1622132237583">
-      <screen x="-1907" y="-2160" width="2560" height="1400" />
+    <state x="-918" y="-1741" width="740" height="766" key="find.popup" timestamp="1631204039590">
+      <screen x="-1907" y="-2160" width="2560" height="1407" />
     </state>
-    <state x="-846" y="-1704" key="FileChooserDialogImpl/0.0.1536.824/-1907.-2160.2560.1400/1933.-1085.1920.1040@-1907.-2160.2560.1400" timestamp="1622132237583" />
-    <state x="-918" y="-1743" width="740" height="762" key="find.popup" timestamp="1626016202511">
-      <screen x="-1907" y="-2160" width="2560" height="1400" />
-    </state>
-    <state x="-918" y="-1743" width="583" height="566" key="find.popup/0.0.1536.824/-1907.-2160.2560.1400/1933.-1085.1920.1040@-1907.-2160.2560.1400" timestamp="1622126729491" />
+    <state x="-918" y="-1741" width="740" height="766" key="find.popup/-1907.-2160.2560.1407/0.0.1536.824/1933.-1085.1920.1040@-1907.-2160.2560.1407" timestamp="1631204039590" />
     <state x="-53" y="-770" width="555" height="566" key="find.popup/0.0.1536.824/1125.-1082.1920.1040/-795.-1080.1920.1040@-795.-1080.1920.1040" timestamp="1623680800176" />
     <state x="-918" y="-1743" width="740" height="762" key="find.popup/0.0.1536.824/1933.-1085.1920.1040/-1907.-2160.2560.1400@-1907.-2160.2560.1400" timestamp="1626016202511" />
     <state x="-179" y="-299" key="run.anything.popup" timestamp="1623678286923">

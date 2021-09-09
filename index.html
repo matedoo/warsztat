@@ -121,25 +121,44 @@
 
                 <div class="range range-sm-center">
                     <div class="cell-sm-11 cell-md-10 cell-lg-9">
-                      <h2  class="text-red-orange mt-60 ml-30">CERTYFIKATY</h2>
+                      <h2  class="text-red-orange mt-60 ml-30 mb-60">CERTYFIKATY</h2>
                     </div>
                 </div>
-                <div class="wrap">
-                    <div class="galleryCert">
-                      <span>
-                      <img src="images/cert1.jpg" alt="">
-                      </span>
-                        <span>
-                      <img src="images/cert2.jpg" alt="">
-                      </span>
-                        <span>
-                      <img src="images/cert4.jpg" alt="">
-                      </span>
-                        <span>
-                      <img src="images/cert5.jpg" alt="">
-                      </span>
+                <div class="slideshow-container">
 
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="images/cert1.jpg" style="width:100%">
                     </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="images/cert2.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="images/cert3.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="images/cert4.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="images/cert5.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev2" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next2" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot2" onclick="currentSlide(1)"></span>
+                    <span class="dot2" onclick="currentSlide(2)"></span>
+                    <span class="dot2" onclick="currentSlide(3)"></span>
+                    <span class="dot2" onclick="currentSlide(4)"></span>
+                    <span class="dot2" onclick="currentSlide(5)"></span>
                 </div>
             </div>
         </section>
@@ -178,6 +197,57 @@
                       <span>
                       <img src="images/photo8.jpeg" alt="">
                       </span>
+                      <span>
+                      <img src="images/photo9.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo10.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo11.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo12.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo13.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo14.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo15.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo16.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo17.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo18.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo19.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo20.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo21.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo22.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo23.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo24.jpeg" alt="">
+                      </span>
+                      <span>
+                      <img src="images/photo25.jpeg" alt="">
+                      </span>
                   </div>
               </div>
           </div>
@@ -211,5 +281,33 @@
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/df7eb623c5.js" crossorigin="anonymous"></script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active2", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active2";
+        }
+    </script>
   </body>
 </html>
