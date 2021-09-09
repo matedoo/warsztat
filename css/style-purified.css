@@ -4097,6 +4097,12 @@ margin: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 12px;
 }
+.galleryCert {
+    display: grid;
+    margin-top: 90px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
 
 .gallery img {
     width: calc(100% * (4/4) - 10px - 1px);

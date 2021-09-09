@@ -1840,7 +1840,7 @@ $document.ready(function () {
     }
   }
 
-  /**
+    /**
    * Page title
    * @description Enables page-title plugin
    */
